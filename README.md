@@ -29,6 +29,22 @@ flowchart LR
     D --> H[(Ledger)]
 ```
 
+## Screenshots
+
+Every picture below comes from a real run of the real program on test data: a made-up traveler and made-up contact details, not a client.
+
+**The trip request form,** filled in with test values (not submitted). It runs in 13 languages; here in English and in Spanish.
+
+<img src="images/trip-form-filled.png" alt="The trip request form in English, filled in with test values" width="360"> <img src="images/trip-form-spanish.png" alt="The same form in Spanish" width="360">
+
+**The fare report,** built by the report builder from a test input: what the trip costs, a budget check, a timing note, flight, car and hotel options, and the checks that were run.
+
+<img src="images/fare-report-page-1.png" alt="Page 1 of a sample fare report: total cost, budget check, timing note, flight options" width="480"> <img src="images/fare-report-page-2.png" alt="Page 2 of the sample report: rental car, hotels, deal checks, activities" width="480">
+
+The same report in Portuguese, one of the languages a client can ask for:
+
+<img src="images/fare-report-portuguese.png" alt="Page 1 of the sample report in Portuguese" width="480">
+
 ## What this demonstrates
 
 | Skill | Evidence in this project |
